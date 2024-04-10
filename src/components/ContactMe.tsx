@@ -17,44 +17,16 @@ export const ContactMe = () => {
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 bg-[#eee] dark:bg-[#111] rounded-3xl w-full md:rounded-full py-10 m-1 border-2 dark:border-white border-black">
           <div className="flex flex-col items-center">
-            <h3 className="text-xl sm:text-2xl md:text-3xl font-bold dark:text-white text-center">
-              Schedule a meet with me
-            </h3>
-            <Link
-              target="_blank"
-              href={'https://cal.com/sargam'}
-              className="text-center flex items-center gap-1"
-            >
-              <span className="dark:text-white text-2xl">cal.com/sargam</span>
-              <LinkIcon className="dark:text-white" size={25} />
-            </Link>
-          </div>
-          <div className="flex flex-col items-center">
-            <h3 className="text-xl sm:text-2xl md:text-3xl font-bold dark:text-white text-center pt-5">
-              I am also very active on twitter
-            </h3>
-            <Link
-              target="_blank"
-              href={'https://x.com/sargampoudel'}
-              className="text-center flex items-center gap-1"
-            >
-              <span className="dark:text-white text-2xl">
-                x.com/sargampoudel
-              </span>
-              <TwitterIcon className="dark:text-white" size={25} />
-            </Link>
-          </div>
-          <div className="flex flex-col items-center">
             <h3 className="text-xl sm:text-2xl md:text-3xl font-bold dark:text-white text-center pt-5">
               I do check emails regulary
             </h3>
             <Link
               target="_blank"
-              href="mailto:sargampoudel100@gmail.com"
+              href="mailto:yerradarwin@gmail.com"
               className="text-center flex items-center gap-1"
             >
               <span className="dark:text-white text-2xl">
-                sargampoudel100@gmail.com
+                yerradarwin@gmail.com
               </span>
               <MailIcon className="dark:text-white" size={25} />
             </Link>
@@ -65,11 +37,11 @@ export const ContactMe = () => {
             </h3>
             <Link
               target="_blank"
-              href="https://github.com/devsargam"
+              href="https://github.com/iam-joey"
               className="text-center flex items-center gap-1"
             >
               <span className="dark:text-white text-2xl">
-                github.com/devsargam
+                github.com/iam-joey
               </span>
               <GithubIcon className="dark:text-white" size={25} />
             </Link>

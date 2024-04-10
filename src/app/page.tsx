@@ -17,9 +17,10 @@ export default function Home() {
               I&apos;m
             </span>
             <p className="my-6 text-4xl sm:text-5xl md:text-7xl font-bold relative z-10 bg-clip-text text-transparent bg-gradient-to-b dark:from-gray-200 dark:to-blue-500 from-red-600 to-pink-800 py-2 cursor-pointer">
-              Sargam Poudel
+              JO3Y
             </p>
           </div>
+
           <HeroBtn />
         </div>
       </div>

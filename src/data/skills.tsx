@@ -7,8 +7,6 @@ import {
   JavascriptIcon,
   KafkaIcon,
   MongoIcon,
-  NeovimIcon,
-  NestIcon,
   NextIcon,
   PostgresIcon,
   ReactIcon,
@@ -16,7 +14,10 @@ import {
   TailwindIcon,
   TypescriptIcon,
 } from '@/components/icons';
+import { AWS } from '@/components/icons/aws';
+import { GithubActions } from '@/components/icons/githubactions';
 import { LinuxIcon } from '@/components/icons/linux';
+import { Turborepo } from '@/components/icons/turborepo';
 import { JSX } from 'react';
 
 export type SkillPillProps = {
@@ -33,10 +34,6 @@ export const LANGUAGES: SkillPillProps[] = [
     name: 'Typescript',
     icon: <TypescriptIcon />,
   },
-  {
-    name: 'Bash',
-    icon: <BashIcon />,
-  },
 ];
 
 export const FRAMEWORKS: SkillPillProps[] = [
@@ -45,17 +42,8 @@ export const FRAMEWORKS: SkillPillProps[] = [
     icon: <ExpressIcon />,
   },
   {
-    name: 'nest',
-    icon: <NestIcon />,
-  },
-
-  {
     name: 'react',
     icon: <ReactIcon />,
-  },
-  {
-    name: 'angular',
-    icon: <AngularIcon />,
   },
   { name: 'nextjs', icon: <NextIcon /> },
   {
@@ -81,12 +69,16 @@ export const DATABASES: SkillPillProps[] = [
 
 export const TOOLS: SkillPillProps[] = [
   {
-    name: 'neovim',
-    icon: <NeovimIcon />,
+    name: 'Turborepo',
+    icon: <Turborepo />,
   },
   {
     name: 'git',
     icon: <GitIcon />,
+  },
+  {
+    name: 'Github Actions',
+    icon: <GithubActions />,
   },
   {
     name: 'docker',
@@ -99,5 +91,9 @@ export const TOOLS: SkillPillProps[] = [
   {
     name: 'linux',
     icon: <LinuxIcon />,
+  },
+  {
+    name: 'Aws',
+    icon: <AWS />,
   },
 ];

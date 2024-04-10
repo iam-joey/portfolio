@@ -9,39 +9,27 @@ export default function AboutPage() {
           About Me
         </h1>
 
-        <div className="dark:bg-black bg-white max-w-lg dark:text-white text-xl p-5 font-thin flex flex-col items-center rounded-lg border-2 gap-5 m-1">
+        <div className="dark:bg-black bg-white max-w-lg dark:text-white text-xl p-5 font-thin flex flex-col items-center rounded-lg border-2 gap-5 m-1 font-serif">
           <Image
-            src="https://avatars.githubusercontent.com/u/76874341?v=4"
-            alt="sargam's image"
+            src="https://avatars.githubusercontent.com/u/38688596?s=96&v=4"
+            alt="joey's image"
             className="rounded-full border-blue-500 border-4"
-            width={200}
-            height={200}
+            width={96}
+            height={96}
           />
           <p>
-            I am Sargam Poudel, a CS sophomore with a huge interest in
-            technology.
+            Greetings! I'm Y.Darwin, a dedicated Full Stack Developer
+            specializing in backend engineering, where I channel my passion for
+            crafting robust and scalable solutions
           </p>
           <p>
-            Regardless of wherever I am right now, I was born and brought up in
-            Bhadrapur, Jhapa, Nepal 🇳🇵
+            I've been diving into coding since January 2023, and honestly, it
+            feels like my happy place. Learning how stuff comes together in the
+            IT world gives me a real dopamine hit that I love.
           </p>
           <p>
-            I wrote my first code after the lockdown in 2021, and since then,
-            I&apos;ve been very fascinated with doing this and even considering
-            it as my profession.
-          </p>
-          <p>
-            Github is my favorite place to be. I do a lot of things there and
-            contribute heavily to Open Source.
-          </p>
-          <p>
-            There are a few people who helped me get started writing code. I
-            have a huge respect for them.
-          </p>
-          <p>
-            Now I&apos;ve attained enough knowledge so that I can give back to
-            the community. I really like helping others who are trying to get
-            into this field.
+            If you think I could be a good fit for any opportunities, please
+            feel free to email me, which you can find in the contact section.
           </p>
         </div>
       </section>
