@@ -18,14 +18,14 @@ export default function AboutPage() {
             height={96}
           />
           <p>
-            Greetings! I'm Y.Darwin, a dedicated Full Stack Developer
+            Greetings I&apos;m Y.Darwin, a dedicated Full Stack Developer
             specializing in backend engineering, where I channel my passion for
             crafting robust and scalable solutions
           </p>
           <p>
-            I've been diving into coding since January 2023, and honestly, it
-            feels like my happy place. Learning how stuff comes together in the
-            IT world gives me a real dopamine hit that I love.
+            I&apos;ve been diving into coding since January 2023, and honestly,
+            it feels like my happy place. Learning how stuff comes together in
+            the IT world gives me a real dopamine hit that I love.
           </p>
           <p>
             If you think I could be a good fit for any opportunities, please
